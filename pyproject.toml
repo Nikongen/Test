@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_nikongen"
+version = "0.0.3"
+authors = [
+  { name="Nikolas Longen", email="nlongen@rptu.de" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nikongen/Test"
+"Bug Tracker" = "https://github.com/pypa/Test/issues"
